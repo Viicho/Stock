@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 10px;
+}
+
+ul li{
+  list-style: none;
+}
+
+header{
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+}
+
+ul{
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+
+.acciones{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0
+}
+
+.acciones input{
+  width: 250px;
+}
